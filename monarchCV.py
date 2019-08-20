@@ -47,5 +47,9 @@ cv2.imshow("With Theshold",thresh)
 
 cv2.waitKey(5000)
 
+top = thresh[1:60, 1:400]
+
+cv2.imshow("Top",top)
+
 print=("Closing image...")
-cv2.destroyAllWindows()
+#cv2.destroyAllWindows()
